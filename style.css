@@ -4,44 +4,120 @@
     font-family: 'karla';
 }
 body{
-    background: #E3EEF8;   
+    background: #E3EEF8;  
+    
 }
 .container{
     max-width: 1100px;
     margin: 0 auto;
-    text-align: center;
 }
 header .container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.logo-nav{
-    display: flex;
-}
-span{
-    margin-right: 30px;
+header span{
     font-size: 21px;
+    margin-right: 40px;
 }
-a{
-    text-decoration: none;
-    margin: 10px;
+.logo__nav{
+    display: flex;
+    align-items: center;
 }
 ul{
     display: flex;
     list-style: none;
+    font-size: 16px;
 }
-.section-bottom{
+a{
+    text-decoration: none;
+    margin: 20px;
+}
+header .button{
+    width: 137px;
+    height: 40px;
+    border-radius: 3px;
+    border: 2px solid #258AFF;
+    background-color: transparent;
+    color: #258AFF;
+}
+.hero{
     display: flex;
-    justify-content: center;
-}
-section .container{
     text-align: center;
+    margin: 50px;
 }
 h1{
-    width: 615px;
     font-size: 70px;
+    width: 615px;
     letter-spacing: -4px;
 }
+.hero-p{
+    font-size: 21px;
+    width: 555px;
+    padding: 20px;
+    letter-spacing: -0,4px;
+}
+.hero button{
+    background-color: orange;
+    width: 210px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+input{
+    width: 275px;
+    height: 60px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.Features .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.Features p{
+    width: 278px;
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+.Features span{
+    font-size: 21px;
+    font-weight: bold;
+}
+.Features i{
+    margin-left: -40px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.content1{
+    background-color: #258AFF;
+}
+.content1 .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content1 h6{
+    width: 220px;
+    font-size: 15px;
+}
+.content1-title{
+    width: 490px;
+    font-size: 48px;
+    margin-top: 40px;
+}
+.content1 p{
+    width: 490px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content1-btn{
+    width: 210px;
+    height: 60px;
+}
+
 
 
 
