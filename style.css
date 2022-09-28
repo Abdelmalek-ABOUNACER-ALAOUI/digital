@@ -51,13 +51,13 @@ h1{
     width: 615px;
     letter-spacing: -4px;
 }
-.hero-p{
+.hero__p{
     font-size: 21px;
     width: 555px;
     padding: 20px;
     letter-spacing: -0,4px;
 }
-.hero button{
+.hero__button{
     background-color: orange;
     width: 210px;
     height: 60px;
@@ -102,7 +102,7 @@ input{
     width: 220px;
     font-size: 15px;
 }
-.content1-title{
+.content1__title{
     width: 490px;
     font-size: 48px;
     margin-top: 40px;
@@ -113,9 +113,62 @@ input{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.content1-btn{
+.content1__btn{
     width: 210px;
     height: 60px;
+}
+.content2 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+.content2__bottom{
+    display: flex;
+}
+.content2__img{
+    display: flex;
+    justify-content: center;
+    width: 636px;
+    height: 636px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.content2 img{
+    max-width: 320px;
+    align-self: center;
+}
+h6{
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: #258AFF;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.content2__title{
+    font-size: 48px;
+    width: 490px;
+}
+.content2__content p{
+    width: 490px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.content2__bottom p{
+    width: 240px;
+    font-size: 17px;
+    font-weight: 400px;
+}
+.content2__bottom i{
+    background-color: #258AFF;
+    padding: 10px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 
