@@ -98,6 +98,9 @@ input{
     justify-content: space-around;
     align-items: center;
 }
+.content1__img{
+    margin: 120px auto;
+}
 .content1 h6{
     width: 220px;
     font-size: 15px;
@@ -138,7 +141,7 @@ input{
     max-width: 320px;
     align-self: center;
 }
-h6{
+.content2 h6{
     font-size: 15px;
     margin-bottom: 50px;
     color: #258AFF;
@@ -170,7 +173,206 @@ h6{
     margin-top: 100px;
     margin-bottom: 30px;
 }
-
+hr{
+    border: 1px solid #FFFFFF;
+}
+.testimonial .container div{
+    max-width: 350px;
+    background: #FFFFFF;
+    margin: 15px;
+    border-radius: 5px;
+}
+.testimonial .container{
+    display: grid;
+    margin-top: 150px;
+    margin-bottom: 130px;
+    align-items: center;
+    grid-template-areas: 
+    "cont card1 card2"
+    "cont card3 card4"
+    ;
+}
+.testimonial .container .testimonial__content{
+    grid-area: cont;
+    background:#E3EEF8;
+    
+}
+.testimonial__card1{
+    grid-area: card1;
+}
+.testimonial__card2{
+    grid-area: card2;
+}
+.testimonial__card3{
+    grid-area: card3;
+}
+.testimonisl__card4{
+    grid-area: card4;
+}
+.card__bottom{
+    display: flex;
+    align-items: center;
+}
+.testimonial h6{
+    font-weight: 700;
+    font-size: 17px;
+}
+.testimonial p{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 30px;
+}
+.testimonial__content p{
+    padding: 0px;
+    width: 315px;
+    margin-top: 10px;
+}
+.card__bottom img{
+    width: 43px;
+    height: 43px;
+}
+.card__bottom p{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0px;
+}
+.testimonial__content h6{
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2.8125px;
+    color: #258AFF;
+}
+.testimonial__content h2{
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -2,5px;
+}
+.client .container{
+    display: flex;
+    justify-content: space-between;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+    margin-bottom: 130px;
+}
+.price{
+    display: flex;
+    background-image: url(./images/Rectangle.png);
+    text-align: center;
+    color: #FFFFFF;
+}
+.price h6{
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+.price__title{
+    max-width: 611px;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -2.52632px;
+    color: #FFFFFF;
+    margin: 43px 250px 93px;
+}
+.price__content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 350px;
+    max-height: 515px;
+    text-align: left;
+    padding: 45px;
+    border-radius: 5px;
+    margin-bottom: 180px;
+    
+}
+.card__header{
+    display: flex;
+    justify-content: space-between;
+}
+.card--light .card__header button{
+    width: 83px;
+    height: 26px;
+    background: #4EAB08;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: -0.514286px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    
+}
+.card__price{
+    display: flex;
+    font-size: 50px;
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+.dollar-sign{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.per-month{
+    font-size: 17px;
+    align-self: end;
+    margin-bottom: 10px;
+}
+.card ul{
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+}
+.card li{
+    margin: 10px auto;
+}
+.card button{
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px; 
+    margin-top: 40px;
+}
+.card--dark button{
+    background: #258AFF;
+}
+.card--light button{
+    background: #FC593B;
+}
+.card--light li::before{
+    content: url(./images/before.png);
+    margin-right: 10px;
+    gap: 7px;
+}
+.card--dark li::before{
+    content: url(./images/Path.png);
+    margin-right: 10px;
+}
+.card p{
+    max-width: 230px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.card--dark{
+    background: #2B405A;
+}
+.card--light{
+    background: #FFFFFF;
+    color: black;
+}
 
 
 
