@@ -15,6 +15,7 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 40px;
 }
 header span{
     font-size: 21px;
@@ -64,17 +65,18 @@ h1{
     border-radius: 5px;
     font-size: 18px;
     margin-bottom: 20px;
+    border-style: none;
 }
 input{
     width: 275px;
     height: 60px;
     border-radius: 3px;
     font-size: 18px;
+    border-style: none;
 }
 .Features .container{
     display: flex;
     justify-content: space-between;
-    
 }
 .Features p{
     width: 278px;
@@ -92,6 +94,7 @@ input{
 }
 .content1{
     background-color: #258AFF;
+    color: #FFFFFF;
 }
 .content1 .container{
     display: flex;
@@ -119,6 +122,10 @@ input{
 .content1__btn{
     width: 210px;
     height: 60px;
+    background: #FFFFFF;
+    color: #258AFF;
+    border-style: none;
+    border-radius: 5px;
 }
 .content2 .container{
     display: flex;
@@ -286,7 +293,6 @@ hr{
 .card{
     display: flex;
     flex-direction: column;
-    align-content: center;
     max-width: 350px;
     max-height: 515px;
     text-align: left;
@@ -295,11 +301,12 @@ hr{
     margin-bottom: 180px;
     
 }
-.card__header{
+.card--light .card__header{
     display: flex;
     justify-content: space-between;
 }
 .card--light .card__header button{
+    
     width: 83px;
     height: 26px;
     background: #4EAB08;
@@ -311,6 +318,7 @@ hr{
     letter-spacing: -0.514286px;
     text-transform: uppercase;
     margin-top: 0px;
+    align-self: end;
     
 }
 .card__price{
@@ -336,6 +344,10 @@ hr{
 .card li{
     margin: 10px auto;
 }
+.card .desactive{
+    color: #878B90;
+    text-decoration-line: line-through;
+}
 .card button{
     width: 190px;
     height: 50px;
@@ -343,7 +355,8 @@ hr{
     color: #FFFFFF;
     font-weight: 700;
     font-size: 18px; 
-    margin-top: 40px;
+    margin: 40px auto 5px;
+    border-style: none;
 }
 .card--dark button{
     background: #258AFF;
@@ -364,7 +377,15 @@ hr{
     max-width: 230px;
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 25px;
+    letter-spacing: -0.4px;
+    margin: 5px auto 25px;
+    color: #666666;
+}
+.card .card__par-1{
+    color: #E5E5E5;
+}
+.card .card__par-2{
+    color: #878B90;
 }
 .card--dark{
     background: #2B405A;
@@ -372,6 +393,48 @@ hr{
 .card--light{
     background: #FFFFFF;
     color: black;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+}
+.footer__col{
+    margin-left: 85px;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer li{
+    margin-bottom: 15px;
+}
+.footer p{
+    max-width: 318px;
+    margin: 30px auto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.4px;
+    color: #666666;
+}
+.footer h6{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: -0.4px;
+    color: #666666;
+    margin: auto auto 30px 15px;
+}
+.footer a{
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: -0.4px;
+    color: #1F1F1F;
+}
+.footer .container{
+    margin: 160px auto 130px;
 }
 
 
