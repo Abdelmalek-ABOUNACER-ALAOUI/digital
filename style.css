@@ -101,9 +101,22 @@ input{
     justify-content: space-around;
     align-items: center;
 }
-.content1__img{
-    margin: 120px auto;
+.content1 .image{
+    margin-left: -85px;
+    margin-top: -85px;
+    transform: rotate(28deg);
+    opacity: 1.0;
 }
+.content1__img{
+    margin: 136px auto 126px;
+    background: #FFFFFF;
+    width: 265.75px;
+    height: 565.6px;
+    opacity: .1;
+    border-radius: 30px;
+    transform: rotate(-28deg);
+}
+
 .content1 h6{
     width: 220px;
     font-size: 15px;
@@ -306,7 +319,6 @@ hr{
     justify-content: space-between;
 }
 .card--light .card__header button{
-    
     width: 83px;
     height: 26px;
     background: #4EAB08;
@@ -318,8 +330,6 @@ hr{
     letter-spacing: -0.514286px;
     text-transform: uppercase;
     margin-top: 0px;
-    align-self: end;
-    
 }
 .card__price{
     display: flex;
