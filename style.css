@@ -95,12 +95,14 @@ h1 span{
     text-transform: uppercase;
     padding-top: 168px;
     padding-bottom: 27px;
+    color: #666666;
 }
 .hero__p{
     font-size: 21px;
     width: 555px;
     padding: 30px;
     letter-spacing: -0,4px;
+    color: #666666;
 }
 form input{
     height: 60px;
@@ -127,15 +129,21 @@ input{
     width: 275px;
     border-radius: 3px;  
     padding-left: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.9px;
+    color: #878B90;
 }
 .hero__top p{
     text-align: center;
+    color: #878B90;
 }
 .Features{
     display: flex;
     justify-content: space-between;
-    margin-top: 169px;
-    margin-left: 64px;
+    margin: 170px auto 160px 64px;
+    
 }
 .Features p{
     width: 278px;
@@ -175,19 +183,20 @@ input{
     align-items: center;
     color: #FFFFFF;
 }
-.content1 .image{
+.content1__img{
     background-image: url(./images/app-shot.png);
     width: 496px;
     height: 741px;
-    
-
+    margin: 130px auto;
+    transform: rotate(9deg);
 }
-.content1__img{ 
-    margin: 136px auto 126px;
+.content1__img ::before{
+    content: "";
     background: #FFFFFF;
-    width: 297.94px;
-    height: 592.89px;   
+    width: 100%;
+    height: 100%; 
     border-radius: 30px;
+    transform: rotate(-9deg);
 }
 .content1 span{
     display: block;
@@ -531,41 +540,41 @@ s{
     display: flex;
     justify-content: space-between;
 }
-.row{
-    display: flex;
-}
-.footer__col{
-    margin-left: 85px;
-}
 .footer ul{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.footer li{
-    margin-bottom: 15px;
+    margin-left: 85px;
+    display: inline-block;
+    
 }
 .footer p{
     max-width: 318px;
     margin: 30px auto;
     font-weight: 400;
     font-size: 16px;
+    line-height: 28px;
     letter-spacing: -0.4px;
     color: #666666;
 }
-.footer h6{
+.footer .title{
     font-weight: 700;
     font-size: 14px;
     letter-spacing: -0.4px;
     color: #666666;
-    margin: auto auto 30px 15px;
+    margin-bottom: 55px;
 }
 .footer a{
     font-weight: 700;
     font-size: 15px;
+    line-height: 40px;
     letter-spacing: -0.4px;
     color: #1F1F1F;
 }
+.social{
+    margin-top: 40px;
+}
+.social a{
+    margin-right: 20px;
+}
+
 .footer .container{
     margin: 160px auto 130px;
 }
